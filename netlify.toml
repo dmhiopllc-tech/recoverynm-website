@@ -1,0 +1,71 @@
+# Netlify Configuration for RecoveryNM.org
+# Last Updated: March 30, 2026
+
+[build]
+  publish = "/"
+  command = ""
+
+[build.environment]
+  NODE_VERSION = "18"
+
+# Redirects for clean URLs
+[[redirects]]
+  from = "/blank"
+  to = "/donation-impact.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blank/"
+  to = "/donation-impact.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/team/"
+  to = "/team.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blog/"
+  to = "/blog.html"
+  status = 301
+  force = true
+
+# Fallback for 404 errors
+[[redirects]]
+  from = "/*"
+  to = "/404.html"
+  status = 404
+
+# Security headers
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-XSS-Protection = "1; mode=block"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "no-referrer-when-downgrade"
+    Permissions-Policy = "geolocation=(), microphone=(), camera=()"
+
+# Cache static assets
+[[headers]]
+  for = "/css/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/js/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/images/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/favicons/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
