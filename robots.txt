@@ -1,0 +1,11 @@
+# robots.txt for RecoveryNM.org
+# Allow all search engines to crawl the site
+
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://myrecoverynm.org/sitemap.xml
+
+# Disallow admin or private areas (if any in future)
+# Disallow: /admin/
