@@ -1,0 +1,11 @@
+# Netlify Redirects for RecoveryNM.org
+# Simple format: from_path  to_path  status_code
+
+# Clean URL redirects
+/blank                /donation-impact.html    301
+/blank/               /donation-impact.html    301
+/team/                /team.html               301
+/blog/                /blog.html               301
+
+# Fallback 404
+/*                    /404.html                404
