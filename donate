@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Donate to Recovery NM - Your gift provides life-saving substance abuse treatment scholarships for New Mexico residents. Every donation makes a difference.">
+    <meta name="keywords" content="donate, recovery new mexico, donation, substance abuse treatment, scholarship funding, nonprofit donation">
+    <meta name="author" content="Recovery NM">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://myrecoverynm.org/donate.html">
+    <meta property="og:title" content="Donate to Recovery NM - Fund Treatment Scholarships">
+    <meta property="og:description" content="Your donation provides hope and healing for New Mexico residents struggling with addiction. 100% goes directly to treatment scholarships.">
+    <meta property="og:image" content="https://myrecoverynm.org/LOGO.png">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://myrecoverynm.org/donate.html">
+    <meta property="twitter:title" content="Donate to Recovery NM">
+    <meta property="twitter:description" content="Fund life-saving treatment scholarships for New Mexico residents.">
+    <meta property="twitter:image" content="https://myrecoverynm.org/LOGO.png">
+    
+    <title>Donate - Recovery NM | Fund Treatment Scholarships</title>
+    
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+    
+    <link rel="icon" type="image/png" href="LOGO.png">
+    <link rel="apple-touch-icon" href="LOGO.png">
+    
+    <!-- Structured Data for SEO -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "DonateAction",
+      "name": "Donate to Recovery NM",
+      "description": "Support substance abuse treatment scholarships for New Mexico residents",
+      "recipient": {
+        "@type": "Organization",
+        "name": "Recovery NM",
+        "url": "https://myrecoverynm.org"
+      }
+    }
+    </script>
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="site-header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <a href="index.html" aria-label="Recovery NM Home">
+                        <img src="LOGO.png" alt="Recovery NM Logo - Helping NM Heal" class="logo-image">
+                    </a>
+                </div>
+                <nav class="main-nav" role="navigation" aria-label="Main navigation">
+                    <button class="mobile-menu-toggle" aria-label="Toggle mobile menu" aria-expanded="false">
+                        <span class="hamburger"></span>
+                        <span class="hamburger"></span>
+                        <span class="hamburger"></span>
+                    </button>
+                    <ul class="nav-menu">
+                        <li><a href="index.html" class="nav-link">Home</a></li>
+                        <li><a href="community-partners.html" class="nav-link">Community Partners</a></li>
+                        <li><a href="donate.html" class="nav-link active">Donate</a></li>
+                        <li><a href="index.html#contact" class="nav-link">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-small" role="banner">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">Make a Donation</h1>
+                <p class="hero-subtitle">Your gift provides hope, healing, and a second chance at life</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Donate Section -->
+    <section class="partnership-section">
+        <div class="container">
+            <h2 class="section-title" style="text-align: center; margin-bottom: 2rem;">Why Your Donation Matters</h2>
+            
+            <div style="max-width: 900px; margin: 0 auto 3rem;">
+                <p class="section-text" style="font-size: 1.1rem; text-align: center; margin-bottom: 2rem;">
+                    Every donation to Recovery NM directly funds treatment scholarships for New Mexico residents who cannot afford substance abuse treatment. Your generosity removes the financial barriers that keep people from getting the help they desperately need.
+                </p>
+                
+                <div class="donation-card" style="background: linear-gradient(135deg, #6B1A1A 0%, #8B0000 100%); color: white; padding: 2.5rem; text-align: center; margin-bottom: 2rem;">
+                    <h3 style="color: #D4AF37; margin-bottom: 1rem; font-size: 2rem;">100% of Your Donation Goes to Scholarships</h3>
+                    <p style="font-size: 1.1rem; line-height: 1.8;">
+                        Unlike many organizations, <strong>we keep overhead minimal</strong>. Every dollar you donate goes directly to funding treatment for New Mexico residents. Thanks to the support of community partners like Nusenda Credit Union and Sandoval County Commissioners, we can ensure your contribution has maximum impact.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Donation Impact Section -->
+    <section class="donation-section" style="background: #f8f8f8; padding: 4rem 0;">
+        <div class="container">
+            <h2 class="section-title" style="text-align: center; margin-bottom: 2rem;">Your Donation Impact</h2>
+            <p class="section-text" style="text-align: center; max-width: 800px; margin: 0 auto 2rem; font-size: 1.1rem;">
+                See how your contribution helps New Mexico residents access life-saving treatment:
+            </p>
+            
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 2rem; margin-bottom: 2rem;">
+                <div class="donation-card">
+                    <h3 style="color: #6B1A1A; margin-bottom: 1rem; font-size: 1.8rem;">$100</h3>
+                    <h4 style="color: #D4AF37; margin-bottom: 1rem;">Intake Support</h4>
+                    <p style="line-height: 1.8;">Covers initial assessment and intake services to get someone started on their recovery journey.</p>
+                </div>
+                
+                <div class="donation-card">
+                    <h3 style="color: #6B1A1A; margin-bottom: 1rem; font-size: 1.8rem;">$500</h3>
+                    <h4 style="color: #D4AF37; margin-bottom: 1rem;">Weekly Treatment</h4>
+                    <p style="line-height: 1.8;">Funds one week of intensive outpatient treatment including counseling and group therapy.</p>
+                </div>
+                
+                <div class="donation-card">
+                    <h3 style="color: #6B1A1A; margin-bottom: 1rem; font-size: 1.8rem;">$1,000</h3>
+                    <h4 style="color: #D4AF37; margin-bottom: 1rem;">Two Weeks of Care</h4>
+                    <p style="line-height: 1.8;">Provides two weeks of comprehensive treatment with medication-assisted therapy if needed.</p>
+                </div>
+                
+                <div class="donation-card">
+                    <h3 style="color: #6B1A1A; margin-bottom: 1rem; font-size: 1.8rem;">$2,500</h3>
+                    <h4 style="color: #D4AF37; margin-bottom: 1rem;">Monthly Program</h4>
+                    <p style="line-height: 1.8;">Covers a full month of intensive outpatient treatment and aftercare planning.</p>
+                </div>
+                
+                <div class="donation-card">
+                    <h3 style="color: #6B1A1A; margin-bottom: 1rem; font-size: 1.8rem;">$5,000</h3>
+                    <h4 style="color: #D4AF37; margin-bottom: 1rem;">Full IOP Program</h4>
+                    <p style="line-height: 1.8;">Funds a complete intensive outpatient program from intake through successful completion.</p>
+                </div>
+                
+                <div class="donation-card">
+                    <h3 style="color: #6B1A1A; margin-bottom: 1rem; font-size: 1.8rem;">$10,000+</h3>
+                    <h4 style="color: #D4AF37; margin-bottom: 1rem;">Residential Care</h4>
+                    <p style="line-height: 1.8;">Provides residential treatment in a supportive, immersive recovery environment.</p>
+                </div>
+            </div>
+            
+            <div class="donation-card" style="text-align: center; padding: 2rem;">
+                <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 0;">
+                    <strong>Every amount matters.</strong> Whether you can give $25 or $25,000, your donation changes lives and strengthens our community.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Donation Methods Section -->
+    <section class="partnership-section">
+        <div class="container">
+            <h2 class="section-title" style="text-align: center; margin-bottom: 3rem;">Ways to Donate</h2>
+            
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 3rem; margin-bottom: 3rem;">
+                <!-- PayPal Donation -->
+                <div class="donation-card" style="text-align: center; padding: 2.5rem;">
+                    <div style="font-size: 4rem; margin-bottom: 1rem;">💳</div>
+                    <h3 style="color: #6B1A1A; margin-bottom: 1rem;">PayPal</h3>
+                    <p style="margin-bottom: 1.5rem; line-height: 1.8;">Scan the QR code with your phone's camera to donate securely through PayPal.</p>
+                    <img src="PAYPAL-QR.png" alt="PayPal QR Code - Scan to Donate to Recovery NM" style="max-width: 250px; margin: 0 auto 1.5rem; display: block; border: 2px solid #eee; padding: 1rem; border-radius: 8px;">
+                    <p style="margin-bottom: 1.5rem;">Or visit:</p>
+                    <a href="https://www.paypal.com/donate?campaign_id=RECOVERNM" target="_blank" rel="noopener" class="btn btn-primary">Donate via PayPal</a>
+                </div>
+                
+                <!-- Check Donation -->
+                <div class="donation-card" style="text-align: center; padding: 2.5rem;">
+                    <div style="font-size: 4rem; margin-bottom: 1rem;">✉️</div>
+                    <h3 style="color: #6B1A1A; margin-bottom: 1rem;">Mail a Check</h3>
+                    <p style="margin-bottom: 1.5rem; line-height: 1.8;">Send a check made payable to <strong>Recovery NM</strong> to:</p>
+                    <div style="background: #f8f8f8; padding: 1.5rem; border-radius: 8px; margin-bottom: 1.5rem; text-align: left;">
+                        <p style="margin: 0; line-height: 1.8;">
+                            <strong>Recovery NM</strong><br>
+                            3301 Southern Blvd. SE<br>
+                            Suite 105<br>
+                            Rio Rancho, NM 87124
+                        </p>
+                    </div>
+                    <p style="font-size: 0.95rem; color: #666;">Please include your contact information for tax receipt purposes.</p>
+                </div>
+                
+                <!-- Phone Donation -->
+                <div class="donation-card" style="text-align: center; padding: 2.5rem;">
+                    <div style="font-size: 4rem; margin-bottom: 1rem;">📞</div>
+                    <h3 style="color: #6B1A1A; margin-bottom: 1rem;">Call to Donate</h3>
+                    <p style="margin-bottom: 1.5rem; line-height: 1.8;">Speak with our team to make a donation over the phone or discuss larger contributions.</p>
+                    <a href="tel:505-270-0840" class="btn btn-primary" style="margin-bottom: 1rem; display: inline-block;">(505) 270-0840</a>
+                    <p style="font-size: 0.95rem; color: #666;">Monday - Friday, 9am - 5pm MST</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Other Ways to Give Section -->
+    <section class="donation-section" style="background: #f8f8f8; padding: 4rem 0;">
+        <div class="container">
+            <h2 class="section-title" style="text-align: center; margin-bottom: 2rem;">Other Ways to Give</h2>
+            
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 2rem;">
+                <div class="donation-card">
+                    <h3 style="color: #6B1A1A; margin-bottom: 1rem;">🎁 In Honor or Memory</h3>
+                    <p style="line-height: 1.8; margin-bottom: 1rem;">Make a donation in honor or memory of a loved one. We'll send an acknowledgment card to the family.</p>
+                    <a href="index.html#contact" style="color: #6B1A1A; font-weight: 600; text-decoration: underline;">Contact us to arrange</a>
+                </div>
+                
+                <div class="donation-card">
+                    <h3 style="color: #6B1A1A; margin-bottom: 1rem;">🏢 Corporate Giving</h3>
+                    <p style="line-height: 1.8; margin-bottom: 1rem;">Partner with us through corporate sponsorships, matching gifts, or workplace giving campaigns.</p>
+                    <a href="index.html#contact" style="color: #6B1A1A; font-weight: 600; text-decoration: underline;">Learn about partnerships</a>
+                </div>
+                
+                <div class="donation-card">
+                    <h3 style="color: #6B1A1A; margin-bottom: 1rem;">📄 Planned Giving</h3>
+                    <p style="line-height: 1.8; margin-bottom: 1rem;">Include Recovery NM in your estate planning through bequests, trusts, or beneficiary designations.</p>
+                    <a href="index.html#contact" style="color: #6B1A1A; font-weight: 600; text-decoration: underline;">Discuss legacy giving</a>
+                </div>
+                
+                <div class="donation-card">
+                    <h3 style="color: #6B1A1A; margin-bottom: 1rem;">🔁 Monthly Giving</h3>
+                    <p style="line-height: 1.8; margin-bottom: 1rem;">Become a sustaining donor with automatic monthly contributions. Your consistent support provides ongoing stability.</p>
+                    <a href="index.html#contact" style="color: #6B1A1A; font-weight: 600; text-decoration: underline;">Set up recurring donation</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tax Information Section -->
+    <section class="partnership-section">
+        <div class="container">
+            <div style="max-width: 900px; margin: 0 auto;">
+                <div class="donation-card" style="background: #f8f8f8; padding: 2.5rem;">
+                    <h2 style="color: #6B1A1A; margin-bottom: 1.5rem; text-align: center;">Tax-Deductible Donation</h2>
+                    <p style="font-size: 1.05rem; line-height: 1.8; text-align: center; margin-bottom: 1.5rem;">
+                        Recovery NM is a registered nonprofit organization. Your donation may be tax-deductible to the fullest extent allowed by law. We will provide a receipt for your records.
+                    </p>
+                    <p style="font-size: 0.95rem; text-align: center; color: #666; margin-bottom: 0;">
+                        Please consult with your tax advisor regarding the deductibility of your charitable contribution.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Thank You Section -->
+    <section class="donation-section" style="background: linear-gradient(135deg, #6B1A1A 0%, #8B0000 100%); color: white; padding: 4rem 0;">
+        <div class="container">
+            <div style="max-width: 800px; margin: 0 auto; text-align: center;">
+                <h2 style="color: #D4AF37; margin-bottom: 1.5rem; font-size: 2.5rem;">Thank You</h2>
+                <p style="font-size: 1.2rem; line-height: 1.8; margin-bottom: 2rem;">
+                    Your generosity saves lives. Every donation to Recovery NM represents hope for a New Mexico resident struggling with addiction, and healing for a family in crisis.
+                </p>
+                <p style="font-size: 1.2rem; line-height: 1.8;">
+                    <strong>Together, we're building a healthier, stronger New Mexico.</strong>
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Questions Section -->
+    <section class="partnership-section">
+        <div class="container">
+            <div style="max-width: 900px; margin: 0 auto; text-align: center;">
+                <h2 class="section-title" style="margin-bottom: 1.5rem;">Have Questions About Donating?</h2>
+                <p class="section-text" style="font-size: 1.1rem; margin-bottom: 2rem;">
+                    We're here to help. Contact us to discuss your donation, learn more about our work, or explore partnership opportunities.
+                </p>
+                <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
+                    <a href="tel:505-270-0840" class="btn btn-primary">(505) 270-0840</a>
+                    <a href="mailto:sean_roberts@dmhiop.com" class="btn btn-secondary">Email Us</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>Recovery NM</h3>
+                    <p>Helping New Mexico heal through community partnership and compassionate support.</p>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="community-partners.html">Community Partners</a></li>
+                        <li><a href="donate.html">Donate</a></li>
+                        <li><a href="index.html#contact">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Contact</h3>
+                    <ul class="footer-links">
+                        <li>3301 Southern Blvd. SE, Ste. 105</li>
+                        <li>Rio Rancho, NM 87124</li>
+                        <li><a href="tel:505-270-0840">(505) 270-0840</a></li>
+                        <li><a href="mailto:sean_roberts@dmhiop.com">Email Us</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Follow Us</h3>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/RecoveryNM" target="_blank" rel="noopener" aria-label="Facebook">Facebook</a>
+                        <a href="https://www.instagram.com/recoverynm" target="_blank" rel="noopener" aria-label="Instagram">Instagram</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 Recovery NM. All rights reserved. | <a href="#privacy">Privacy Policy</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Mobile Menu Script -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const menuToggle = document.querySelector('.mobile-menu-toggle');
+            const navMenu = document.querySelector('.nav-menu');
+            
+            if (menuToggle && navMenu) {
+                menuToggle.addEventListener('click', function() {
+                    navMenu.classList.toggle('active');
+                    const isExpanded = navMenu.classList.contains('active');
+                    menuToggle.setAttribute('aria-expanded', isExpanded);
+                });
+                
+                // Close menu when clicking outside
+                document.addEventListener('click', function(event) {
+                    if (!event.target.closest('.main-nav')) {
+                        navMenu.classList.remove('active');
+                        menuToggle.setAttribute('aria-expanded', 'false');
+                    }
+                });
+            }
+        });
+    </script>
+</body>
+</html>
