@@ -1,134 +1,253 @@
 # Recovery NM Website
 
-**Official website for Recovery NM** - A nonprofit organization providing financial assistance for substance abuse treatment in New Mexico.
+Official website repository for **Recovery NM**, a New Mexico nonprofit working to reduce financial barriers to substance use treatment through treatment scholarship support.
 
-🌐 **Live Site**: https://myrecoverynm.org
-
----
-
-## 📋 About
-
-Recovery NM is dedicated to making substance abuse treatment accessible for New Mexico residents through scholarships and financial support. Our mission is to ensure that no one is denied access to life-changing treatment due to financial limitations.
+**Live Website:** https://myrecoverynm.org
 
 ---
 
-## 🚀 Deployment
+## About Recovery NM
 
-This website is automatically deployed via **Netlify** connected to this GitHub repository.
+Recovery NM was founded to help New Mexico residents who face financial barriers to substance use treatment.
 
-### Automatic Deployment:
-- Push to `main` branch → Automatic deployment to production
-- Deployment takes ~30-60 seconds
-- Live URL: https://myrecoverynm.org
+Our mission is to raise community support and use those resources to help create treatment scholarship opportunities for New Mexicans who might otherwise struggle to access care.
+
+Recovery NM is **not limited to one treatment center**. The organization supports access to treatment and works with community partners, donors, treatment providers, and other organizations to help New Mexico residents pursue appropriate care.
+
+**New Mexicans Helping New Mexicans.**
 
 ---
 
-## 📁 Project Structure
+## Website Pages
 
-```
+The current website consists of four primary public pages:
+
+- `index.html` — Homepage and mission
+- `donate.html` — Donation and treatment scholarship support
+- `community-partners.html` — Community partners and organizational support
+- `staff.html` — Our Story & Leadership
+
+---
+
+## Project Structure
+
+```text
 recoverynm-website/
-├── index.html                 # Homepage
-├── donation-impact.html       # What Your Donation Can Change
-├── team.html                  # Team page
-├── blog.html                  # Blog listing
-├── 404.html                   # Custom 404 error page
-├── netlify.toml               # Netlify configuration
-├── _redirects                 # URL redirects
-├── robots.txt                 # SEO crawler rules
-├── sitemap.xml                # SEO sitemap
-├── css/
-│   ├── main.css              # Main stylesheet
-│   └── fonts.css             # Font declarations
-├── js/
-│   └── main.js               # JavaScript
-├── images/
-│   ├── logo.png              # RecoveryNM logo
-│   ├── hero-background.jpg   # Hero image
-│   └── paypal-qr-code.png    # PayPal QR
-└── favicons/
-    ├── favicon-16x16.png
-    ├── favicon-32x32.png
-    └── favicon-180x180.png
+├── index.html
+├── donate.html
+├── community-partners.html
+├── staff.html
+├── _redirects
+├── robots.txt
+├── sitemap.xml
+├── netlify.toml
+├── .gitignore
+├── README.md
+├── LOGO.png
+├── HERO-CLIMBERS.jpg
+├── HEART-HANDS.jpg
+├── PAYPAL-QR.png
+└── css/
+    └── main.css
 ```
 
 ---
 
-## 🎨 Design
+## Deployment
 
-### Brand Colors:
-- **Primary (Deep Red/Maroon)**: RGB(188, 24, 51)
-- **Secondary (Tan/Beige)**: RGB(209, 165, 115)
+The website is hosted on **Netlify** and connected directly to this GitHub repository.
 
-### Typography:
-- **Primary Font**: Lato (weights: 100, 300, 400, 700, 900)
-- **Secondary Font**: Montserrat (weights: 100-900)
+Changes committed to the `main` branch are automatically deployed to the production website.
 
----
+### Deployment Workflow
 
-## 📞 Contact Information
-
-**Address**: 3301 Southern Blvd SE Ste 105, Rio Rancho, NM 87124  
-**Phone**: (505) 270-0840  
-**Email**: sean_roberts@dmhiop.com
-
-**Hours**:
-- Mon-Fri: 9:00 AM – 6:00 PM
-- Sat-Sun: 11:00 AM – 5:00 PM
+1. Edit or replace the appropriate file in GitHub.
+2. Commit the change to the `main` branch.
+3. Netlify automatically detects the new commit.
+4. Netlify builds and publishes the updated site.
+5. Verify the change at https://myrecoverynm.org.
 
 ---
 
-## 🛠️ Making Updates
+## Domain & DNS
 
-### Method 1: GitHub Web Interface (Easiest)
-1. Navigate to the file you want to edit
-2. Click the pencil icon (Edit)
-3. Make your changes
-4. Commit changes with a descriptive message
-5. Site auto-deploys in 30-60 seconds
+**Domain:** myrecoverynm.org  
+**DNS Management:** Cloudflare  
+**Hosting:** Netlify  
+**SSL/HTTPS:** Enabled
 
-### Method 2: Git Command Line
-```bash
-# Make changes locally
-git add .
-git commit -m "Description of changes"
-git push origin main
-# Auto-deploys in 30-60 seconds
+The website is served securely over HTTPS.
+
+---
+
+## Brand & Design
+
+The current Recovery NM website uses a warm nonprofit-focused visual system built around burgundy, cream, sand, and gold.
+
+### Primary Colors
+
+- **Burgundy:** `#681c1f`
+- **Dark Burgundy:** `#481114`
+- **Sand:** `#f6f0e7`
+- **Cream:** `#fffaf4`
+- **Gold:** `#d7a24a`
+- **Light Gold:** `#f1ca82`
+- **Dark Text:** `#24211f`
+
+### Typography
+
+- **Headings:** Georgia / Times New Roman / serif
+- **Body:** Arial / Helvetica / sans-serif
+
+The website is designed to be responsive across desktop, tablet, and mobile devices.
+
+---
+
+## Website Assets
+
+### `LOGO.png`
+
+Official Recovery NM logo used throughout the website.
+
+### `HERO-CLIMBERS.jpg`
+
+Primary hero image representing support, progress, and recovery.
+
+### `HEART-HANDS.jpg`
+
+Supporting mission image used throughout the website.
+
+### `PAYPAL-QR.png`
+
+QR code used on the donation page for donation access.
+
+---
+
+## SEO
+
+The repository includes:
+
+- `sitemap.xml` — Lists the primary public pages for search engines
+- `robots.txt` — Allows search-engine crawling and identifies the sitemap
+- Canonical URLs on primary pages
+- Page-specific titles and meta descriptions
+- Open Graph metadata
+- Social sharing metadata
+- Structured data
+- Descriptive image alternative text
+- Internal linking between primary pages
+
+Current sitemap:
+
+https://myrecoverynm.org/sitemap.xml
+
+Current robots file:
+
+https://myrecoverynm.org/robots.txt
+
+---
+
+## Redirects
+
+Netlify redirects are managed through the `_redirects` file.
+
+Current alternate/legacy URL redirects include:
+
+```text
+/team       → /staff.html
+/team/      → /staff.html
+/about      → /staff.html
+/about/     → /staff.html
+/partners   → /community-partners.html
+/partners/  → /community-partners.html
+/donate     → /donate.html
+/donate/    → /donate.html
 ```
 
----
-
-## ✨ Features
-
-- ✅ Responsive mobile-first design
-- ✅ Contact form (Netlify Forms)
-- ✅ PayPal donation integration (QR code)
-- ✅ Google Maps embed
-- ✅ Social media integration
-- ✅ SEO optimized
-- ✅ SSL/HTTPS enabled
-- ✅ Fast loading (CDN)
+Permanent redirects use HTTP status code `301`.
 
 ---
 
-## 🔗 Important Links
+## Contact Information
 
-- **Live Website**: https://myrecoverynm.org
-- **Netlify Dashboard**: https://app.netlify.com/
-- **Facebook**: https://www.facebook.com/profile.php?id=61566334820717
-- **Contact Portal**: https://dmhiop.com/
+**Recovery NM**  
+3301 Southern Blvd. SE, Suite 105  
+Rio Rancho, NM 87124
 
----
+**Email:** info@myrecoverynm.org  
+**Website:** https://myrecoverynm.org
 
-## 📝 License
-
-© 2024-2026 Recovery NM. All rights reserved.
+Recovery NM website contact information is maintained separately from Desert Mountain Healing IOP contact information.
 
 ---
 
-## 🙏 Acknowledgments
+## Leadership
 
-Built with ❤️ for the Recovery NM mission to support New Mexico residents on their recovery journey.
+- **Gary Gamboa** — President
+- **Sean Roberts** — Vice President
+- **Fred Gamboa** — Board Member at Large
+- **Tatiana Schnierow** — Office Manager
 
-**Hosted by**: Netlify (Free Tier)  
-**Version Control**: GitHub  
-**Domain**: myrecoverynm.org (Network Solutions)
+---
+
+## Community Support
+
+Recovery NM works with community organizations, donors, treatment providers, public partners, volunteers, and advocates to expand access to substance use treatment.
+
+Community support recognized on the website includes:
+
+- Desert Mountain Healing IOP
+- Nusenda Credit Union
+- Sandoval County
+- Individual donors, volunteers, and community supporters
+
+Nusenda Credit Union's support helped Recovery NM fund treatment for two New Mexico clients.
+
+---
+
+## Making Website Updates
+
+### GitHub Web Interface
+
+For straightforward updates:
+
+1. Open the file in this repository.
+2. Select the edit/pencil option.
+3. Make the necessary change.
+4. Commit the change to `main`.
+5. Wait for Netlify to deploy the new commit.
+6. Verify the live page after deployment.
+
+For major page redesigns, replace the complete HTML file rather than making numerous small edits to an outdated version.
+
+---
+
+## Important Links
+
+**Website:** https://myrecoverynm.org  
+**GitHub Repository:** https://github.com/dmhiopllc-tech/recoverynm-website  
+**Netlify:** https://app.netlify.com/
+
+---
+
+## Emergency & Crisis Information
+
+Recovery NM is **not an emergency or crisis service**.
+
+If you or someone you know is in immediate danger, call **911**.
+
+For suicide or mental health crisis support in the United States, call or text **988**.
+
+---
+
+## Copyright
+
+© 2026 Recovery NM. All rights reserved.
+
+---
+
+## Mission
+
+**Helping New Mexico residents overcome financial barriers to substance use treatment through treatment scholarship support.**
+
+**New Mexicans Helping New Mexicans.**
