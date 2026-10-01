@@ -1,4 +1,16 @@
-# Netlify Redirects for RecoveryNM.org
+# Netlify Redirects for myrecoverynm.org
+
+# Legacy / alternate URLs
+/team              /staff.html                 301
+/team/             /staff.html                 301
+/about             /staff.html                 301
+/about/            /staff.html                 301
+
+/partners          /community-partners.html    301
+/partners/         /community-partners.html    301
+
+/donate            /donate.html                301
+/donate/           /donate.html                301# Netlify Redirects for RecoveryNM.org
 # Simple format: from_path  to_path  status_code
 
 # Clean URL redirects
