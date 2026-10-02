@@ -11,9 +11,39 @@
 <meta property="og:description" content="Help New Mexicans overcome financial barriers to substance use treatment through treatment scholarships.">
 <meta property="og:image" content="https://myrecoverynm.org/HEART-HANDS.jpg">
 <meta name="theme-color" content="#681c1f"><link rel="icon" href="/LOGO.png">
+
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"NonprofitOrganization","name":"Recovery NM","url":"https://myrecoverynm.org/","logo":"https://myrecoverynm.org/LOGO.png","email":"info@myrecoverynm.org","description":"Recovery NM helps New Mexico residents overcome financial barriers to substance use treatment through treatment scholarships.","areaServed":{"@type":"State","name":"New Mexico"},"nonprofitStatus":"Nonprofit501c3","contactPoint":{"@type":"ContactPoint","email":"info@myrecoverynm.org","contactType":"general inquiries","areaServed":"US-NM"}}
+{
+  "@context": "https://schema.org",
+  "@type": "NonprofitOrganization",
+  "@id": "https://myrecoverynm.org/#organization",
+  "name": "Recovery NM",
+  "url": "https://myrecoverynm.org/",
+  "logo": "https://myrecoverynm.org/LOGO.png",
+  "email": "info@myrecoverynm.org",
+  "description": "Recovery NM is a 501(c)(3) nonprofit organization helping New Mexico residents overcome financial barriers to substance use treatment through treatment scholarships.",
+  "nonprofitStatus": "Nonprofit501c3",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "3301 Southern Blvd SE, Suite 105",
+    "addressLocality": "Rio Rancho",
+    "addressRegion": "NM",
+    "postalCode": "87124",
+    "addressCountry": "US"
+  },
+  "areaServed": {
+    "@type": "State",
+    "name": "New Mexico"
+  },
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "email": "info@myrecoverynm.org",
+    "contactType": "general inquiries",
+    "areaServed": "US-NM"
+  }
+}
 </script>
+
 <style>
 :root{--wine:#681c1f;--dark:#481114;--sand:#f6f0e7;--cream:#fffaf4;--gold:#d7a24a;--ink:#24211f;--muted:#625e59;--line:#e6dcd0;--max:1180px}
 *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Arial,sans-serif;color:var(--ink);line-height:1.65}img{max-width:100%;display:block}a{color:inherit}.c{width:min(var(--max),calc(100% - 40px));margin:auto}h1,h2,h3{font-family:Georgia,serif;line-height:1.12;margin-top:0}h2{font-size:clamp(2rem,4vw,3.25rem)}p{margin-top:0}.ey{color:var(--wine);font-weight:800;text-transform:uppercase;letter-spacing:.12em;font-size:.78rem}.lead{font-size:1.15rem;color:var(--muted);max-width:760px}.btn{display:inline-flex;justify-content:center;align-items:center;min-height:50px;padding:.8rem 1.35rem;border-radius:999px;text-decoration:none;font-weight:800;border:2px solid transparent}.primary{background:var(--gold);color:#2d1b0a}.wine{background:var(--wine);color:#fff}.outline{border-color:var(--wine);color:var(--wine);background:#fff}
@@ -39,8 +69,10 @@ footer{background:#211c1a;color:#fff;padding:3rem 0 1.5rem}.foot{display:grid;gr
 <button class="toggle" aria-label="Open navigation" aria-expanded="false">☰</button>
 <nav id="nav"><a href="#mission">Our Mission</a><a href="#impact">Our Impact</a><a href="#scholarships">Scholarships</a><a href="/community-partners.html">Partners</a><a href="/staff.html">About Us</a><a class="btn wine" href="/donate.html">Donate</a></nav>
 </div></header>
+
 <main>
 <section class="hero"><div class="c"><div class="heroin"><span class="ey">Recovery NM • New Mexico</span><h1>Give Someone the Chance to Recover.</h1><p>Your support helps New Mexicans overcome financial barriers to substance use treatment by funding treatment scholarships when cost stands between a person and the help they need.</p><div class="actions"><a class="btn primary" href="/donate.html">Donate Now</a><a class="btn outline" href="#how">See How Your Gift Helps</a></div></div></div></section>
+
 <div class="strip">Treatment should not be out of reach simply because someone cannot afford it.</div>
 
 <section id="mission" class="center"><div class="c"><span class="ey">Our Mission</span><h2>When Someone Is Ready for Recovery, Cost Shouldn't Close the Door.</h2><p class="lead">Recovery NM exists to help remove financial barriers that can prevent New Mexico residents from accessing substance use treatment. We raise funds for treatment scholarships so people can pursue care at qualified treatment providers in New Mexico.</p><div class="belief">No one should be denied the chance at recovery because of their financial situation.</div></div></section>
@@ -81,4 +113,5 @@ const b=document.querySelector('.toggle'),n=document.querySelector('#nav');
 b.addEventListener('click',()=>{const o=n.classList.toggle('open');b.setAttribute('aria-expanded',o);b.textContent=o?'✕':'☰'});
 n.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{n.classList.remove('open');b.setAttribute('aria-expanded','false');b.textContent='☰'}));
 </script>
-</body></html>
+</body>
+</html>
