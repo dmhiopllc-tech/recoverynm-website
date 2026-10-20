@@ -58,7 +58,7 @@
   --ink:#24211f;--muted:#625e59;--white:#fff;--line:#e6dcd0;
   --green:#315e4a;--max:1180px;--shadow:0 18px 55px rgba(60,35,28,.12)
 }
-*{box-sizing:border-box}
+\*{box-sizing:border-box}
 html{scroll-behavior:smooth}
 body{margin:0;font-family:Arial,Helvetica,sans-serif;color:var(--ink);line-height:1.65;background:#fff}
 img{max-width:100%;display:block}
@@ -107,8 +107,9 @@ section{padding:5.2rem 0}
 .donate-first{background:var(--sand)}
 .donate-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:3rem;align-items:start}
 .donate-panel{background:#fff;border:1px solid var(--line);border-radius:26px;padding:2.2rem;box-shadow:var(--shadow)}
-.qr{width:min(270px,80%);margin:1.5rem auto;border:1px solid var(--line);padding:1rem;border-radius:16px;background:#fff}
+.givebutter-embed{width:100%;min-height:380px;margin:1.5rem auto;overflow:visible}
 .secure-note{text-align:center;color:var(--muted);font-size:.9rem}
+.secure-note a{color:var(--wine);font-weight:700}
 .mail-card{background:var(--cream);border-left:5px solid var(--gold);padding:1.5rem;border-radius:0 18px 18px 0;margin-top:1.5rem}
 .mail-card address{font-style:normal;line-height:1.8}
 .checks{list-style:none;padding:0;margin:1.5rem 0}
@@ -182,6 +183,8 @@ footer a{color:rgba(255,255,255,.87);text-decoration:none}
  .actions{flex-direction:column}.actions .btn{width:100%}
 }
 </style>
+<!-- Givebutter donation widget library -->
+<script async src="https://widgets.givebutter.com/latest.umd.cjs?acct=3Mb06g3ofx7n31Ud&p=other"></script>
 </head>
 
 <body>
@@ -198,9 +201,9 @@ footer a{color:rgba(255,255,255,.87);text-decoration:none}
     <a href="/">Home</a>
     <a href="/#mission">Our Mission</a>
     <a href="/#impact">Our Impact</a>
-    <a href="/community-partners.html">Partners</a>
-    <a href="/staff.html">About Us</a>
-    <a class="btn btn-wine" href="/donate.html" aria-current="page">Donate</a>
+    <a href='/community-partners'>Partners</a>
+    <a href='/staff'>About Us</a>
+    <a aria-current='page' class='btn btn-wine' href='/donate'>Donate</a>
   </nav>
 </div>
 </header>
@@ -237,16 +240,18 @@ footer a{color:rgba(255,255,255,.87);text-decoration:none}
   </div>
 
   <div class="donate-panel">
-    <div class="center">
-      <span class="eyebrow">Secure Online Giving</span>
-      <h2 style="font-size:2.2rem">Donate Through PayPal</h2>
-      <p>Scan the QR code with your phone or use the button below.</p>
-      <img class="qr" src="/PAYPAL-QR.png" alt="PayPal QR code to donate to Recovery NM" width="300" height="300">
-      <a class="btn btn-wine" href="https://www.paypal.com/donate?campaign_id=RECOVERNM" target="_blank" rel="noopener noreferrer">Donate via PayPal</a>
-      <p class="secure-note">Online donations are processed through PayPal.</p>
-    </div>
+          <div class="center">
+        <span class="eyebrow">Secure Online Giving</span>
+        <h2 style="font-size:2.2rem">Make a Donation</h2>
+        <p>Choose a one-time gift or become a monthly supporter. Select an amount and complete your donation securely below.</p>
+      </div>
+      <div class="givebutter-embed" aria-label="Recovery NM secure donation form">
+        <givebutter-widget id="LWknKv"></givebutter-widget>
+      </div>
+      <p class="secure-note">Donations are securely processed through Givebutter. If the form does not appear, <a href="https://givebutter.com/fund-scholarships-for-substance-use-treatment-wg46oc" target="_blank" rel="noopener noreferrer">open our secure donation page</a>.</p>
+      <p class="secure-note">Prefer PayPal? <a href="https://www.paypal.com/donate?campaign_id=RECOVERNM" target="_blank" rel="noopener noreferrer">Donate using PayPal</a>.</p>
 
-    <div class="mail-card">
+<div class="mail-card">
       <h3>Prefer to Mail a Check?</h3>
       <p>Make checks payable to <strong>Recovery NM</strong> and mail to:</p>
       <address>
@@ -393,8 +398,8 @@ footer a{color:rgba(255,255,255,.87);text-decoration:none}
         <li><a href="/">Home</a></li>
         <li><a href="/#mission">Our Mission</a></li>
         <li><a href="/#impact">Our Impact</a></li>
-        <li><a href="/community-partners.html">Community Partners</a></li>
-        <li><a href="/staff.html">About Us</a></li>
+        <li><a href='/community-partners'>Community Partners</a></li>
+        <li><a href='/staff'>About Us</a></li>
       </ul>
     </div>
     <div>
@@ -408,7 +413,7 @@ footer a{color:rgba(255,255,255,.87);text-decoration:none}
     </div>
   </div>
   <div class="footer-bottom">
-    <p><a href="/privacy-policy.html">Privacy Policy</a></p>
+    <p><a href='/privacy-policy'>Privacy Policy</a></p>
     <p>© 2026 Recovery NM. All rights reserved.</p>
     <p>Recovery NM is not an emergency or crisis service. If you or someone you know is in immediate danger, call 911. For suicide or mental health crisis support in the United States, call or text 988.</p>
     <p>Website information is general information and is not medical advice or a guarantee of scholarship funding or treatment placement.</p>
