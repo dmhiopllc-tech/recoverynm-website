@@ -69,15 +69,19 @@ section{padding:5.3rem 0;scroll-margin-top:95px}.center{text-align:center}.cente
 footer{background:#211c1a;color:#fff;padding:3rem 0 1.5rem}.foot{display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:2rem}.foot ul{list-style:none;padding:0}.foot a{color:#eee;text-decoration:none}.footbottom{border-top:1px solid #ffffff25;margin-top:2rem;padding-top:1.3rem;color:#bbb;font-size:.86rem}
 @media(max-width:900px){.toggle{display:block}nav{display:none;position:absolute;top:82px;left:0;right:0;background:#fff;padding:1.2rem 20px;flex-direction:column;align-items:stretch}nav.open{display:flex}.steps{grid-template-columns:1fr 1fr}.split,.trustgrid,.contactgrid{grid-template-columns:1fr}.three{grid-template-columns:1fr}.photo{order:-1;min-height:360px}.foot{grid-template-columns:1fr 1fr}}
 @media(max-width:620px){.c{width:calc(100% - 28px)}.brand small{display:none}.brand strong{font-size:1.05rem}.brand img{width:50px;height:50px}.navwrap{height:70px}nav{top:70px}.hero{min-height:610px}.heroin{padding:4rem 0}section{padding:4rem 0}.steps,.two,.row,.foot{grid-template-columns:1fr}.actions{flex-direction:column}.actions .btn{width:100%}}
+
+/* Shared components: keep styles consistent on every page. */
+#site-header .site-header{position:sticky;top:0;z-index:10;background:#fff;border-bottom:1px solid var(--line)}
+#site-footer .site-footer{background:#211c1a;color:#fff;padding:3rem 0 1.5rem}
+#site-footer .foot ul{list-style:none;padding:0}
+#site-footer .foot li{margin:.35rem 0}
+#site-footer .foot a{color:#eee;text-decoration:none}
+#site-footer .footbottom a{color:#eee}
+@media(max-width:900px){#site-header .navwrap{position:relative}#site-header nav{z-index:20}}
 </style>
 </head>
 <body>
-<div class="top">Questions? <a href="mailto:info@myrecoverynm.org">info@myrecoverynm.org</a></div>
-<header><div class="c navwrap">
-<a class="brand" href="/"><img src="/LOGO.png" width="120" height="120" alt="Recovery NM logo"><span><strong>Recovery NM</strong><small>New Mexicans Helping New Mexicans</small></span></a>
-<button class="toggle" type="button" aria-controls="nav" aria-label="Open navigation" aria-expanded="false">☰</button>
-<nav id="nav" aria-label="Main navigation"><a href="#mission">Our Mission</a><a href="#impact">Our Impact</a><a href="#scholarships">Scholarships</a><a href="/community-partners">Partners</a><a href="/staff">About Us</a><a class="btn wine" href="/donate">Donate</a></nav>
-</div></header>
+<div id="site-header"></div>
 <main>
 <section class="hero"><div class="c"><div class="heroin"><span class="ey">Recovery NM • New Mexico</span><h1>Give Someone the Chance to Recover.</h1><p>Your support helps New Mexicans overcome financial barriers to substance use treatment by funding treatment scholarships when cost stands between a person and the help they need.</p><div class="actions"><a class="btn primary" href="/donate">Donate Now</a><a class="btn outline" href="#how">See How Your Gift Helps</a></div></div></div></section>
 <div class="strip">Treatment should not be out of reach simply because someone cannot afford it.</div>
@@ -114,11 +118,7 @@ footer{background:#211c1a;color:#fff;padding:3rem 0 1.5rem}.foot{display:grid;gr
 <section class="final"><div class="c"><span class="ey">Help Open the Door</span><h2>Someone in New Mexico Is Ready for Recovery.</h2><p>The ability to pay should not be the reason treatment remains out of reach. Your support can help create an opportunity for someone to begin.</p><div class="actions"><a class="btn primary" href="/donate">Donate Now</a><a class="btn outline" href="mailto:info@myrecoverynm.org">Contact Recovery NM</a></div></div></section>
 </main>
 
-<footer><div class="c"><div class="foot"><div><h3>Recovery NM</h3><p>Helping New Mexico residents overcome financial barriers to substance use treatment through treatment scholarship support.</p><p><a href="mailto:info@myrecoverynm.org">info@myrecoverynm.org</a></p></div><div><h3>Explore</h3><ul><li><a href="#mission">Our Mission</a></li><li><a href="#impact">Our Impact</a></li><li><a href="#scholarships">Scholarships</a></li><li><a href="/community-partners">Community Partners</a></li><li><a href="/staff">About Us</a></li></ul></div><div><h3>Take Action</h3><ul><li><a href="/donate">Donate</a></li><li><a href="#scholarships">Ask About a Scholarship</a></li><li><a href="mailto:info@myrecoverynm.org?subject=Recovery%20NM%20Partnership%20Inquiry">Partner With Us</a></li><li><a href="#contact">Contact</a></li></ul></div></div><div class="footbottom"><p><a href="/privacy-policy">Privacy Policy</a></p><p>© 2026 Recovery NM. All rights reserved.</p><p>Recovery NM is not an emergency or crisis service. If you or someone you know is in immediate danger, call 911. For suicide or mental health crisis support in the United States, call or text 988.</p><p>Website information is general information and is not medical advice or a guarantee of scholarship funding or treatment placement.</p></div></div></footer>
+<div id="site-footer"></div>
 
-<script>
-const b=document.querySelector('.toggle'),n=document.querySelector('#nav');
-b.addEventListener('click',()=>{const o=n.classList.toggle('open');b.setAttribute('aria-expanded',o);b.textContent=o?'✕':'☰'});
-n.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{n.classList.remove('open');b.setAttribute('aria-expanded','false');b.textContent='☰'}));
-</script>
+<script src="/components/recovery-components.js" defer></script>
 </body></html>
