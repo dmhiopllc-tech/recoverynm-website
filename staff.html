@@ -18,36 +18,36 @@
 <link rel="canonical" href="https://myrecoverynm.org/staff">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Recovery NM">
-<meta property="og:url" content="https\://myrecoverynm.org/staff.html">
+<meta property="og:url" content="https://myrecoverynm.org/staff">
 <meta property="og:title" content="Our Story & Leadership | Recovery NM">
 <meta property="og:description" content="Meet the people behind Recovery NM and learn why we are working to expand access to substance use treatment for New Mexicans.">
-<meta property="og:image" content="https\://myrecoverynm.org/HERO-CLIMBERS.jpg">
+<meta property="og:image" content="https://myrecoverynm.org/HERO-CLIMBERS.jpg">
 <meta property="og:image:alt" content="People climbing together, representing support and recovery">
 <meta property="og:locale" content="en_US">
 <meta name="color-scheme" content="light">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Our Story & Leadership | Recovery NM">
 <meta name="twitter:description" content="Meet the people behind Recovery NM's treatment scholarship mission.">
-<meta name="twitter:image" content="https\://myrecoverynm.org/HERO-CLIMBERS.jpg">
+<meta name="twitter:image" content="https://myrecoverynm.org/HERO-CLIMBERS.jpg">
 <meta name="theme-color" content="#681c1f">
 <link rel="icon" type="image/png" href="/LOGO.png">
 <link rel="apple-touch-icon" href="/LOGO.png">
 <script type="application/ld+json">
 {
-  "@context":"https\://schema.org",
+  "@context":"https://schema.org",
   "@type":"AboutPage",
   "name":"Our Story & Leadership",
-  "url":"https\://myrecoverynm.org/staff.html",
+  "url":"https://myrecoverynm.org/staff",
   "description":"The story, leadership and team behind Recovery NM's treatment scholarship mission.",
   "isPartOf":{
     "@type":"WebSite",
     "name":"Recovery NM",
-    "url":"https\://myrecoverynm.org/"
+    "url":"https://myrecoverynm.org/"
   },
   "about":{
     "@type":"NonprofitOrganization",
     "name":"Recovery NM",
-    "url":"https\://myrecoverynm.org/",
+    "url":"https://myrecoverynm.org/",
     "email":"info@myrecoverynm.org",
     "address":{
       "@type":"PostalAddress",
@@ -66,7 +66,7 @@
  --gold:#d7a24a;--gold-light:#f1ca82;--ink:#24211f;--muted:#625e59;
  --line:#e6dcd0;--max:1180px;--shadow:0 18px 55px rgba(60,35,28,.12)
 }
-\*{box-sizing:border-box}html{scroll-behavior:smooth}
+*{box-sizing:border-box}html{scroll-behavior:smooth}
 body{margin:0;font-family:Arial,Helvetica,sans-serif;color:var(--ink);line-height:1.65;background:#fff}
 img{max-width:100%;display:block}a{color:inherit}
 .container{width:min(var(--max),calc(100% - 40px));margin:auto}
@@ -166,27 +166,46 @@ footer a{color:rgba(255,255,255,.87);text-decoration:none}
  .footer-grid{grid-template-columns:1fr}
  .actions{flex-direction:column}.actions .btn{width:100%}
 }
+
+/* Shared header and footer compatibility */
+.c{width:min(var(--max),calc(100% - 40px));margin:auto}
+.top{background:var(--wine-dark);color:#fff;text-align:center;padding:.48rem 1rem;font-size:.9rem}
+.top a{font-weight:800}
+.site-header{position:relative;top:auto;z-index:1000;background:#fff;border-bottom:1px solid var(--line)}
+.site-header .navwrap{min-height:82px;display:flex;align-items:center;justify-content:space-between;gap:2rem}
+.site-header .brand{display:flex;align-items:center;gap:.75rem;text-decoration:none}
+.site-header .brand img{width:60px;height:60px;object-fit:contain}
+.site-header .brand strong{display:block;color:var(--wine);font:700 1.3rem Georgia,serif}
+.site-header .brand small{display:block;color:var(--muted);font-size:.72rem;text-transform:uppercase;letter-spacing:.05em}
+.site-header nav{display:flex;align-items:center;gap:1.15rem}
+.site-header nav a{text-decoration:none;font-weight:700;font-size:.93rem}
+.site-header .btn.wine{background:var(--wine);color:#fff;min-height:42px;padding:.5rem 1rem}
+.site-header .toggle{display:none;border:0;background:none;color:var(--wine);font-size:1.8rem;cursor:pointer}
+.site-footer{background:#211c1a;color:#fff;padding:3rem 0 1.5rem}
+.site-footer .foot{display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:2rem}
+.site-footer h3{font:700 1rem Arial,sans-serif;text-transform:uppercase;letter-spacing:.08em;color:var(--gold-light)}
+.site-footer ul{list-style:none;padding:0;margin:0}
+.site-footer li{margin:.5rem 0}
+.site-footer a{color:rgba(255,255,255,.87);text-decoration:none}
+.site-footer .footbottom{border-top:1px solid rgba(255,255,255,.15);margin-top:2rem;padding-top:1.4rem;color:rgba(255,255,255,.66);font-size:.87rem}
+@media(max-width:950px){
+ .site-header .toggle{display:block}
+ .site-header nav{display:none;position:absolute;top:100%;left:0;right:0;background:#fff;padding:1.2rem 20px 1.5rem;flex-direction:column;align-items:stretch;box-shadow:var(--shadow)}
+ .site-header nav.open{display:flex}
+ .site-footer .foot{grid-template-columns:1fr 1fr}
+}
+@media(max-width:680px){
+ .c{width:calc(100% - 28px)}
+ .site-header .navwrap{min-height:70px}
+ .site-header .brand small{display:none}
+ .site-header .brand strong{font-size:1.05rem}
+ .site-header .brand img{width:50px;height:50px}
+ .site-footer .foot{grid-template-columns:1fr}
+}
 </style>
 </head>
 <body>
-<div class="utility">Questions about Recovery NM? <a href="mailto:info@myrecoverynm.org">info@myrecoverynm.org</a></div>
-<header>
-<div class="container nav-wrap">
- <a class="brand" href="/" aria-label="Recovery NM home">
-  <img src="/LOGO.png" width="120" height="120" alt="Recovery NM logo">
-  <span><strong>Recovery NM</strong><small>New Mexicans Helping New Mexicans</small></span>
- </a>
- <button class="toggle" type="button" aria-label="Open navigation" aria-controls="nav" aria-expanded="false">☰</button>
- <nav id="nav" aria-label="Main navigation">
-  <a href="/">Home</a>
-  <a href="/#mission">Our Mission</a>
-  <a href="/#impact">Our Impact</a>
-  <a href='/community-partners'>Partners</a>
-  <a aria-current='page' href='/staff'>About Us</a>
-  <a class='btn btn-wine' href='/donate'>Donate</a>
- </nav>
-</div>
-</header>
+<div id="site-header"></div>
 <main>
 <section class="hero">
 <div class="container">
@@ -334,57 +353,7 @@ footer a{color:rgba(255,255,255,.87);text-decoration:none}
 </div>
 </section>
 </main>
-<footer>
-<div class="container">
- <div class="footer-grid">
-  <div>
-   <div class="footer-brand"><img src="/LOGO.png" width="120" height="120" alt=""><strong>Recovery NM</strong></div>
-   <p style="color:rgba(255,255,255,.72)">Helping New Mexico residents overcome financial barriers to substance use treatment through treatment scholarship support.</p>
-   <p><a href="mailto:info@myrecoverynm.org">info@myrecoverynm.org</a></p>
-  </div>
-  <div>
-   <h3>Explore</h3>
-   <ul>
-    <li><a href="/">Home</a></li>
-    <li><a href="/#mission">Our Mission</a></li>
-    <li><a href="/#impact">Our Impact</a></li>
-    <li><a href='/community-partners'>Community Partners</a></li>
-    <li><a href='/staff'>About Us</a></li>
-    <li><a href='/privacy-policy'>Privacy Policy</a></li>
-   </ul>
-  </div>
-  <div>
-   <h3>Take Action</h3>
-   <ul>
-    <li><a href='/donate'>Donate</a></li>
-    <li><a href='/community-partners#become'>Become a Partner</a></li>
-    <li><a href="mailto:info@myrecoverynm.org?subject=Treatment%20Scholarship%20Inquiry">Scholarship Inquiry</a></li>
-    <li><a href="mailto:info@myrecoverynm.org">Contact</a></li>
-   </ul>
-  </div>
- </div>
- <div class="footer-bottom">
-   <p><a href='/privacy-policy'>Privacy Policy</a></p>
-  <p>© 2026 Recovery NM. All rights reserved.</p>
-  <p>Recovery NM is not an emergency or crisis service. If you or someone you know is in immediate danger, call 911. For suicide or mental health crisis support in the United States, call or text 988.</p>
-  <p>Website information is general information and is not medical advice or a guarantee of scholarship funding or treatment placement.</p>
- </div>
-</div>
-</footer>
-<script>
-const button=document.querySelector('.toggle');
-const nav=document.querySelector('#nav');
-button.addEventListener('click',()=>{
- const open=nav.classList.toggle('open');
- button.setAttribute('aria-expanded',String(open));
- button.textContent=open?'✕':'☰';
-});
-nav.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{
- nav.classList.remove('open');
- button.setAttribute('aria-expanded','false');
- button.textContent='☰';
-}));
-document.addEventListener('keydown',e=>{if(e.key==='Escape'){nav.classList.remove('open');button.setAttribute('aria-expanded','false');button.textContent='☰';}});
-</script>
+<div id="site-footer"></div>
+<script src="/components/recovery-components.js" defer></script>
 </body>
 </html>
