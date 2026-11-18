@@ -3,25 +3,26 @@
 # Preferred URLs use clean paths without .html
 
 # Legacy URLs
-/team                  /staff                  301
-/team/                 /staff                  301
-/about                 /staff                  301
-/about/                /staff                  301
+/team                    /staff                  301
+/team/                   /staff                  301
+/about                   /staff                  301
+/about/                  /staff                  301
 
-/partners              /community-partners     301
-/partners/             /community-partners     301
+/partners                /community-partners     301
+/partners/               /community-partners     301
 
 # Old HTML URLs to clean URLs
-/donate.html           /donate                 301!
-/staff.html            /staff                  301
-/community-partners.html /community-partners   301
-/community-impact.html /community-impact       301
-/privacy-policy.html   /privacy-policy         301
+# Forced redirects override existing HTML files
+/donate.html             /donate                 301!
+/staff.html              /staff                  301!
+/community-partners.html /community-partners     301!
+/community-impact.html   /community-impact       301!
+/privacy-policy.html     /privacy-policy         301!
 
 # Other legacy redirects
-/blank                 /donation-impact.html   301
-/blank/                /donation-impact.html   301
-/blog/                 /blog.html              301
+/blank                   /donation-impact.html   301
+/blank/                  /donation-impact.html   301
+/blog/                   /blog.html              301
 
 # Fallback 404
-/*                     /404.html               404
+/*                       /404.html               404
