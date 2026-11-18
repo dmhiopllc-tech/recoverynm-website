@@ -12,7 +12,7 @@
 /partners/             /community-partners     301
 
 # Old HTML URLs to clean URLs
-/donate.html           /donate                 301
+/donate.html           /donate                 301!
 /staff.html            /staff                  301
 /community-partners.html /community-partners   301
 /community-impact.html /community-impact       301
